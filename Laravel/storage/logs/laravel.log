@@ -1,0 +1,60 @@
+[2017-08-02 21:31:09] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'Route' (T_STRING)' in C:\xampp\htdocs\Laravel\routes\web.php:18
+Stack trace:
+#0 {main}  
+[2017-08-03 12:37:47] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ';'' in C:\xampp\htdocs\Laravel\routes\web.php:24
+Stack trace:
+#0 {main}  
+[2017-08-03 12:38:38] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ';'' in C:\xampp\htdocs\Laravel\routes\web.php:24
+Stack trace:
+#0 {main}  
+[2017-08-03 12:38:44] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ';'' in C:\xampp\htdocs\Laravel\routes\web.php:24
+Stack trace:
+#0 {main}  
+[2017-08-03 12:40:01] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '" XAMPP "' (T_CONSTANT_ENCAPSED_STRING)' in C:\xampp\htdocs\Laravel\routes\web.php:24
+Stack trace:
+#0 {main}  
+[2017-08-03 12:40:26] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'echo' (T_ECHO)' in C:\xampp\htdocs\Laravel\routes\web.php:24
+Stack trace:
+#0 {main}  
+[2017-08-03 12:42:25] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'echo' (T_ECHO)' in C:\xampp\htdocs\Laravel\routes\web.php:24
+Stack trace:
+#0 {main}  
+[2017-08-03 12:42:36] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '" XAMPP "' (T_CONSTANT_ENCAPSED_STRING)' in C:\xampp\htdocs\Laravel\routes\web.php:24
+Stack trace:
+#0 {main}  
+[2017-08-03 12:42:37] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '" XAMPP "' (T_CONSTANT_ENCAPSED_STRING)' in C:\xampp\htdocs\Laravel\routes\web.php:24
+Stack trace:
+#0 {main}  
+[2017-08-03 12:42:57] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ''XAMPP'' (T_CONSTANT_ENCAPSED_STRING)' in C:\xampp\htdocs\Laravel\routes\web.php:24
+Stack trace:
+#0 {main}  
+[2017-08-03 12:43:03] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ''XAMPP'' (T_CONSTANT_ENCAPSED_STRING)' in C:\xampp\htdocs\Laravel\routes\web.php:24
+Stack trace:
+#0 {main}  
+[2017-08-03 12:43:04] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ''XAMPP'' (T_CONSTANT_ENCAPSED_STRING)' in C:\xampp\htdocs\Laravel\routes\web.php:24
+Stack trace:
+#0 {main}  
+[2017-08-03 12:43:04] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ''XAMPP'' (T_CONSTANT_ENCAPSED_STRING)' in C:\xampp\htdocs\Laravel\routes\web.php:24
+Stack trace:
+#0 {main}  
+[2017-08-03 13:31:21] local.ERROR: exception 'Symfony\Component\Console\Exception\CommandNotFoundException' with message 'There are no commands defined in the "delete" namespace.' in C:\xampp\htdocs\Laravel\vendor\symfony\console\Application.php:533
+Stack trace:
+#0 C:\xampp\htdocs\Laravel\vendor\symfony\console\Application.php(565): Symfony\Component\Console\Application->findNamespace('delete')
+#1 C:\xampp\htdocs\Laravel\vendor\symfony\console\Application.php(204): Symfony\Component\Console\Application->find('delete:middlewa...')
+#2 C:\xampp\htdocs\Laravel\vendor\symfony\console\Application.php(130): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\xampp\htdocs\Laravel\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php(122): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 C:\xampp\htdocs\Laravel\artisan(36): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 {main}  
+[2017-08-03 13:33:26] local.ERROR: exception 'Symfony\Component\Console\Exception\RuntimeException' with message 'The "--plain" option does not exist.' in C:\xampp\htdocs\Laravel\vendor\symfony\console\Input\ArgvInput.php:224
+Stack trace:
+#0 C:\xampp\htdocs\Laravel\vendor\symfony\console\Input\ArgvInput.php(160): Symfony\Component\Console\Input\ArgvInput->addLongOption('plain', NULL)
+#1 C:\xampp\htdocs\Laravel\vendor\symfony\console\Input\ArgvInput.php(84): Symfony\Component\Console\Input\ArgvInput->parseLongOption('--plain')
+#2 C:\xampp\htdocs\Laravel\vendor\symfony\console\Input\Input.php(63): Symfony\Component\Console\Input\ArgvInput->parse()
+#3 C:\xampp\htdocs\Laravel\vendor\symfony\console\Command\Command.php(222): Symfony\Component\Console\Input\Input->bind(Object(Symfony\Component\Console\Input\InputDefinition))
+#4 C:\xampp\htdocs\Laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php(168): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Illuminate\Console\OutputStyle))
+#5 C:\xampp\htdocs\Laravel\vendor\symfony\console\Application.php(869): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 C:\xampp\htdocs\Laravel\vendor\symfony\console\Application.php(223): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Routing\Console\ControllerMakeCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\xampp\htdocs\Laravel\vendor\symfony\console\Application.php(130): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\xampp\htdocs\Laravel\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php(122): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 C:\xampp\htdocs\Laravel\artisan(36): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 {main}  
